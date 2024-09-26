@@ -10,6 +10,8 @@ function createBoard() {
   gameBoard.innerHTML = '';
   messageBoard.textContent = ''; // Clear any previous message
   gameBoard.style.gridTemplateColumns = `repeat(${gridSize}, 1fr)`;
+  gameBoard.style.gridTemplateRows = `repeat(${gridSize}, 1fr)`;
+
 
   for (let i = 0; i < gridSize; i++) {
     board[i] = [];
