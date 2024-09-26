@@ -1,0 +1,62 @@
+/* Apply a full-height layout for centering */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+h1 {
+    
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 4rem;
+}
+
+form {
+    display: flex;
+    /* background-color: #db420b; */
+    flex-direction: column;
+    /* Stack form elements vertically */
+    align-items: center;
+    /* Centers form elements */
+    width: 50%;
+    height: 50%;
+    
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 1rem;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}

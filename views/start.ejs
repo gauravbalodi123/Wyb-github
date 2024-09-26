@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe Game</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <h1>Tic-Tac-Toe Game</h1>
+  <p>Grid Size: <%= gridSize %> x <%= gridSize %>
+  </p>
+  <p>Win Streak: <%= winStreak %>
+  </p>
+
+  <!-- Game Board -->
+
+  <div id="gameBoard" data-grid-size="<%= gridSize %>" data-win-streak="<%= winStreak %>"></div>
+
+
+  <!-- Message Board for displaying win or draw messages -->
+  <div id="messageBoard" style="margin-top: 3rem; margin-bottom: 7rem;  font-size: 7rem; font-weight: bold;"></div>
+
+  <!-- Link external JavaScript -->
+  <script src="/js/game.js"></script>
+</body>
+
+</html>
